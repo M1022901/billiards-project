@@ -1,4 +1,9 @@
 # Billiards Project · 台球入门指南
+在线访问：[台球入门指南](https://m1022901.github.io/billiards-project/)
+
+源码仓库：[M1022901/billiards-project](https://github.com/M1022901/billiards-project)
+
+GitHub Pages 使用 `main` 分支的 `docs/` 目录。更新网站时，先在 `app/` 运行 `npm run build`，再将 `app/dist/` 中的文件同步到 `docs/`（保留 `docs/.nojekyll`）并提交推送。
 
 面向初学者的台球互动教学网站，覆盖 **斯诺克（Snooker）**、**美式 9 球（9-Ball）** 与 **中式八球 / Heyball**。
 前端是一个单页 React 应用，通过顶部导航在 5 个页面之间切换：发展地图、名人堂、规则入门、3D 教学模拟、关于。

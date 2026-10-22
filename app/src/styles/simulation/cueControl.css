@@ -1,0 +1,430 @@
+/* Cue Ball Control demo (case 03). */
+
+.cue-control-demo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  min-height: 560px;
+  border: 1px solid #dbe5e0;
+  background: #0b1713;
+}
+
+.cue-control-stage {
+  position: relative;
+  min-width: 0;
+  min-height: 560px;
+}
+
+.cue-control-canvas {
+  min-width: 0;
+  min-height: 560px;
+}
+
+.cue-control-canvas canvas {
+  display: block;
+}
+
+.cue-control-info {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.91), rgba(15, 35, 31, 0.94));
+  padding: 16px;
+  color: #ffffff;
+}
+
+.cue-mode-switch,
+.cue-view-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 4px;
+}
+
+.cue-mode-switch button,
+.cue-view-switch button {
+  min-height: 34px;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.cue-mode-switch button.active,
+.cue-view-switch button.active {
+  background: #facc15;
+  color: #17211d;
+}
+
+.cue-view-switch button:disabled,
+.cue-situation-switch button:disabled,
+.cue-sim-controls button:disabled,
+.tip-pad button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.cue-situation-switch {
+  display: grid;
+  gap: 8px;
+}
+
+.cue-situation-switch button {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  column-gap: 9px;
+  row-gap: 3px;
+  align-items: center;
+  min-height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.07);
+  padding: 8px 9px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.cue-situation-switch button.active {
+  border-color: color-mix(in srgb, var(--shot-color, #38bdf8) 74%, #ffffff);
+  background: color-mix(in srgb, var(--shot-color, #38bdf8) 18%, rgba(255, 255, 255, 0.08));
+}
+
+.cue-situation-switch button > span {
+  grid-row: 1 / span 2;
+  width: 10px;
+  height: 100%;
+  min-height: 28px;
+  border-radius: 999px;
+  background: var(--shot-color, #38bdf8);
+}
+
+.cue-situation-switch b {
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.cue-situation-switch em {
+  min-width: 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 760;
+  line-height: 1.15;
+}
+
+.cue-lineup-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.cue-lineup-head span {
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 5px 8px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cue-lineup-head b {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.cue-control-info > span {
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 5px 8px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cue-control-info h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 1.05;
+}
+
+.cue-control-info p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cue-reveal {
+  display: grid;
+  gap: 7px;
+  border: 1px solid rgba(250, 204, 21, 0.4);
+  background: rgba(250, 204, 21, 0.1);
+  padding: 10px;
+}
+
+.cue-reveal b {
+  font-size: 13px;
+  font-weight: 950;
+  line-height: 1.2;
+}
+
+.cue-reveal em {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 760;
+  line-height: 1.45;
+}
+
+.cue-choose-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cue-choose-title b {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13px;
+  font-weight: 950;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.cue-choose-title em {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 850;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.tip-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 46px);
+  gap: 6px;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.tip-dot {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0;
+  cursor: pointer;
+}
+
+.tip-dot i {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 999px;
+  background: var(--tip-color, #ffffff);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.14);
+  transition: transform 0.12s ease;
+}
+
+.tip-dot[aria-pressed="true"] {
+  border-color: #facc15;
+  background: rgba(250, 204, 21, 0.16);
+}
+
+.tip-dot[aria-pressed="true"] i {
+  transform: scale(1.35);
+}
+
+.tip-dot.follow {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.tip-dot.left-spin {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.tip-dot.stop {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.tip-dot.right-spin {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.tip-dot.draw {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.tip-pad-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+
+.tip-pad-key span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tip-pad-key i {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.tip-pad-key b {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.cue-sim-controls {
+  display: grid;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 10px;
+}
+
+.cue-sim-controls button {
+  min-height: 40px;
+  border: 0;
+  background: #facc15;
+  color: #17211d;
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.cue-sim-controls button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.cue-legend {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr) 18px minmax(0, 1fr);
+  gap: 8px 9px;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  padding-top: 11px;
+}
+
+.cue-legend i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+}
+
+.cue-legend b {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 11px;
+  font-weight: 850;
+  line-height: 1.15;
+}
+
+.cue-legend .cue {
+  border: 1px solid rgba(15, 23, 42, 0.3);
+  background: #f8fafc;
+}
+
+.cue-legend .ball {
+  background: #2563eb;
+}
+
+.cue-legend .route {
+  height: 5px;
+  border-radius: 999px;
+  background: #3b82f6;
+}
+
+.cue-legend .zone {
+  border: 2px solid #34d399;
+  background: rgba(52, 211, 153, 0.35);
+}
+
+.cue-result-modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: grid;
+  gap: 10px;
+  width: min(360px, calc(100% - 32px));
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(15, 23, 42, 0.9);
+  padding: 16px;
+  color: #ffffff;
+  box-shadow: 0 24px 54px rgba(0, 0, 0, 0.34);
+  z-index: 3;
+}
+
+.cue-result-modal.success {
+  border-color: rgba(34, 197, 94, 0.48);
+}
+
+.cue-result-modal.miss {
+  border-color: rgba(248, 113, 113, 0.5);
+}
+
+.cue-result-modal span {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.cue-result-modal p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 14px;
+  font-weight: 720;
+  line-height: 1.4;
+}
+
+.cue-result-modal div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.cue-result-modal button {
+  min-height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.cue-result-modal button:last-child {
+  border-color: #facc15;
+  background: #facc15;
+  color: #17211d;
+}

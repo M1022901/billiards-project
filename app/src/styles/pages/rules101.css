@@ -1,0 +1,173 @@
+/* Rules 101 page: beginner comparison grid and the step-by-step guide modal. */
+
+.rules-comparison-scroll {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.rules-comparison-visual {
+  display: grid;
+  gap: 8px;
+  min-width: 860px;
+}
+
+.comparison-game-header,
+.comparison-visual-row {
+  display: grid;
+  grid-template-columns: 150px repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  min-width: 0;
+}
+
+.comparison-game-header > span,
+.comparison-game-header > b,
+.comparison-row-label,
+.comparison-value-card {
+  min-width: 0;
+  border: 1px solid #dbe5e0;
+  background: #ffffff;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.comparison-game-header > span {
+  display: grid;
+  align-items: center;
+  padding: 10px;
+  color: #65746f;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.comparison-game-header > b {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 54px;
+  padding: 10px;
+  color: #17211d;
+  font-size: 13px;
+  line-height: 1.2;
+  white-space: normal;
+}
+
+.comparison-game-header > b > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.comparison-game-header i,
+.comparison-row-label i {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: var(--game-color, #0f766e);
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.comparison-row-label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 68px;
+  padding: 10px;
+  background: #f7faf8;
+  color: #17211d;
+  font-size: 13px;
+  font-weight: 900;
+  white-space: normal;
+}
+
+.comparison-row-label i {
+  background: #17211d;
+}
+
+.comparison-value-card {
+  display: grid;
+  align-content: center;
+  gap: 4px;
+  min-height: 68px;
+  border-left: 5px solid var(--game-color);
+  padding: 10px 11px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--game-color) 8%, #ffffff), #ffffff 54%);
+  white-space: normal;
+}
+
+.comparison-value-card strong {
+  min-width: 0;
+  color: #111827;
+  font-size: 16px;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.comparison-value-card em {
+  min-width: 0;
+  color: #65746f;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 750;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.rule-step-visual {
+  position: relative;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 300px;
+  background: color-mix(in srgb, var(--game-color) 20%, #e8efe9);
+}
+
+.rule-step-image {
+  display: block;
+}
+
+.rule-step-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent 45%, rgba(17, 24, 39, 0.38));
+}
+
+.rule-step-badge {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  max-width: calc(100% - 28px);
+  gap: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  background: rgba(15, 23, 42, 0.78);
+  padding: 8px 10px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.rule-step-badge i {
+  display: grid;
+  place-items: center;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: var(--game-color);
+  color: #ffffff;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 950;
+}

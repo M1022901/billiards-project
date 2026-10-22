@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#111827"/><rect x="120" y="120" width="1360" height="760" rx="58" fill="#54321f"/><rect x="185" y="185" width="1230" height="630" rx="30" fill="#168c4c"/>
+  <text x="210" y="252" font-family="Inter,Arial" font-size="46" font-weight="900" fill="#fff">Pattern play: open clusters, plan the 8</text>
+  <g font-family="Inter,Arial" font-size="24" font-weight="900" text-anchor="middle">
+    <circle cx="360" cy="620" r="34" fill="#f8fafc"/><text x="360" y="628">C</text><circle cx="590" cy="545" r="34" fill="#2563eb"/><text x="590" y="553" fill="#fff">2</text><circle cx="735" cy="505" r="34" fill="#7c3aed"/><text x="735" y="513" fill="#fff">4</text><circle cx="840" cy="520" r="34" fill="#fff"/><rect x="810" y="507" width="60" height="26" rx="13" fill="#7c3aed"/><text x="840" y="528" fill="#fff">12</text><circle cx="1120" cy="420" r="38" fill="#050505"/><text x="1120" y="429" fill="#fff">8</text>
+  </g>
+  <path d="M360 620 L590 545 C665 525 700 510 735 505" stroke="#fef3c7" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M735 505 C790 455 910 430 1080 420" stroke="#bfdbfe" stroke-width="7" stroke-dasharray="15 13" fill="none"/>
+  <rect x="970" y="650" width="350" height="115" rx="16" fill="#ecfeff"/><text x="1005" y="696" font-family="Inter,Arial" font-size="28" font-weight="900" fill="#0f766e">Key idea</text><text x="1005" y="732" font-family="Inter,Arial" font-size="21" font-weight="700" fill="#155e75">Do not leave the 8 without an angle.</text>
+</svg>

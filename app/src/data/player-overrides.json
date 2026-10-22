@@ -1,0 +1,494 @@
+{
+  "steve-davis": {
+    "imageFocus": "center 18%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "15",
+        "detail": "World Championship: 6 · UK Championship: 6 · Masters: 3"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "The Nugget",
+        "detail": "1980s professional model"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 1981, 1983, 1984, 1987, 1988, 1989",
+      "tripleCrownTitles": "15 (World 6, UK 6, Masters 3)",
+      "rankingTitles": "28",
+      "maximum147s": "1"
+    }
+  },
+  "alex-higgins": {
+    "imageFocus": "center 18%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "5",
+        "detail": "World Championship: 2 · UK Championship: 1 · Masters: 2"
+      },
+      "peakRanking": {
+        "value": "No. 2"
+      },
+      "signature": {
+        "value": "Hurricane",
+        "detail": "TV personality catalyst"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 1972, 1982",
+      "tripleCrownTitles": "5 (World 2, UK 1, Masters 2)"
+    }
+  },
+  "jimmy-white": {
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "2",
+        "detail": "World Championship: 0 · UK Championship: 1 · Masters: 1"
+      },
+      "peakRanking": {
+        "value": "No. 2"
+      },
+      "signature": {
+        "value": "The Whirlwind",
+        "detail": "People's champion"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Championship finalist: 1984, 1990, 1991, 1992, 1993, 1994",
+      "tripleCrownTitles": "2 (UK 1, Masters 1)",
+      "rankingTitles": "10",
+      "maximum147s": "1"
+    }
+  },
+  "stephen-hendry": {
+    "image": "https://static.independent.co.uk/2021/03/24/15/GettyImages-1095438418.jpg",
+    "imageFocus": "center 18%",
+    "imageZoom": 1.08,
+    "keyFacts": {
+      "topTitles": {
+        "value": "18",
+        "detail": "World Championship: 7 · UK Championship: 5 · Masters: 6"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "King of the Crucible",
+        "detail": "1990s dominant champion"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 1990, 1992, 1993, 1994, 1995, 1996, 1999",
+      "tripleCrownTitles": "18 (World 7, UK 5, Masters 6)",
+      "rankingTitles": "36",
+      "maximum147s": "11"
+    }
+  },
+  "john-parrott": {
+    "image": "https://m.media-amazon.com/images/M/MV5BMGJmNjNkNzEtNmE4Ny00ZDI3LWE2M2QtMGFlMzI2ODkxMDg4XkEyXkFqcGc@._V1_.jpg",
+    "imageFocus": "center 18%",
+    "imageZoom": 1.08,
+    "keyFacts": {
+      "topTitles": {
+        "value": "2",
+        "detail": "World Championship: 1 · UK Championship: 1 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "No. 2"
+      },
+      "signature": {
+        "value": "All-rounder",
+        "detail": "Bridge from Davis to Hendry"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 1991",
+      "tripleCrownTitles": "2 (World 1, UK 1)",
+      "rankingTitles": "9"
+    }
+  },
+  "ken-doherty": {
+    "image": "https://wpbsa.com/wp-content/uploads/KEN-DOHERTY-copy-1200x1200.png",
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "1",
+        "detail": "World Championship: 1 · UK Championship: 0 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "No. 2"
+      },
+      "signature": {
+        "value": "Darling of Dublin",
+        "detail": "International Crucible winner"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 1997",
+      "tripleCrownTitles": "1 (World 1)",
+      "rankingTitles": "6"
+    }
+  },
+  "ronnie-o-sullivan": {
+    "image": "https://www.wpbsa.com/wp-content/uploads/OSullivan-1200x1200.png",
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "23",
+        "detail": "World Championship: 7 · UK Championship: 8 · Masters: 8"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "The Rocket",
+        "detail": "The transcendent star"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2001, 2004, 2008, 2012, 2013, 2020, 2022",
+      "tripleCrownTitles": "23 (World 7, UK 8, Masters 8)",
+      "rankingTitles": "41",
+      "maximum147s": "17"
+    }
+  },
+  "john-higgins": {
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "9",
+        "detail": "World Championship: 4 · UK Championship: 3 · Masters: 2"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "Wizard of Wishaw",
+        "detail": "The complete match player"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 1998, 2007, 2009, 2011",
+      "tripleCrownTitles": "9 (World 4, UK 3, Masters 2)",
+      "rankingTitles": "33",
+      "maximum147s": "13"
+    }
+  },
+  "mark-williams": {
+    "imageFocus": "center 18%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "7",
+        "detail": "World Championship: 3 · UK Championship: 2 · Masters: 2"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "Welsh Potting Machine",
+        "detail": "Natural potter"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2000, 2003, 2018",
+      "tripleCrownTitles": "7 (World 3, UK 2, Masters 2)",
+      "rankingTitles": "27",
+      "maximum147s": "3"
+    }
+  },
+  "efren-reyes": {
+    "imageFocus": "center 13%"
+  },
+  "earl-strickland": {
+    "imageFocus": "center 16%"
+  },
+  "shane-van-boening": {
+    "imageFocus": "center 12%"
+  },
+  "fedor-gorst": {
+    "imageFocus": "center 12%"
+  },
+  "ding-junhui": {
+    "imageFocus": "center 18%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "4",
+        "detail": "World Championship: 0 · UK Championship: 3 · Masters: 1"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "Star of the East",
+        "detail": "China's breakthrough figure"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Championship finalist: 2016",
+      "tripleCrownTitles": "4 (UK 2005, 2009, 2019; Masters 2011)",
+      "rankingTitles": "15",
+      "maximum147s": "7",
+      "careerPrize": "GBP 5.26m+"
+    }
+  },
+  "marco-fu": {
+    "image": "https://www.wpbsa.com/wp-content/uploads/marco-fu-600x600-copy.png",
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "0",
+        "detail": "World Championship: 0 · UK Championship: 0 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "No. 5"
+      },
+      "signature": {
+        "value": "Hong Kong leader",
+        "detail": "Composed international professional"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Championship semi-finalist: 2006, 2016",
+      "tripleCrownTitles": "0",
+      "rankingTitles": "3",
+      "maximum147s": "4"
+    }
+  },
+  "liang-wenbo": {
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "0",
+        "detail": "World Championship: 0 · UK Championship: 0 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "No. 11"
+      },
+      "signature": {
+        "value": "Early contender",
+        "detail": "Early mainland Chinese tour visibility"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "UK Championship finalist: 2015; World Championship quarter-finalist: 2008",
+      "tripleCrownTitles": "0",
+      "rankingTitles": "1"
+    }
+  },
+  "neil-robertson": {
+    "imageFocus": "center 15%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "6",
+        "detail": "World Championship: 1 · UK Championship: 3 · Masters: 2"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "Thunder from Down Under",
+        "detail": "Non-UK Triple Crown winner"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2010",
+      "tripleCrownTitles": "6 (World 1, UK 3, Masters 2)",
+      "rankingTitles": "26"
+    }
+  },
+  "zheng-yubo": {
+    "imageFocus": "center 14%"
+  },
+  "chu-bingjie": {
+    "imageFocus": "center 14%"
+  },
+  "pan-xiaoting": {
+    "imageFocus": "center 14%"
+  },
+  "gareth-potts": {
+    "imageFocus": "center 14%"
+  },
+  "mark-selby": {
+    "imageFocus": "center 18%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "10",
+        "detail": "World Championship: 4 · UK Championship: 3 · Masters: 3"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "Jester from Leicester",
+        "detail": "The pressure specialist"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2014, 2016, 2017, 2021",
+      "tripleCrownTitles": "10 (World 4, UK 3, Masters 3)",
+      "rankingTitles": "25",
+      "maximum147s": "6"
+    }
+  },
+  "judd-trump": {
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "5",
+        "detail": "World Championship: 1 · UK Championship: 2 · Masters: 2"
+      },
+      "peakRanking": {
+        "value": "No. 1"
+      },
+      "signature": {
+        "value": "Ace in the Pack",
+        "detail": "Modern attacking superstar"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2019",
+      "tripleCrownTitles": "5 (World 1, UK 2, Masters 2)",
+      "rankingTitles": "31",
+      "maximum147s": "9"
+    }
+  },
+  "kyren-wilson": {
+    "image": "https://www.wpbsa.com/wp-content/uploads/WILSON_v1-1024x1024.png",
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "2",
+        "detail": "World Championship: 1 · UK Championship: 0 · Masters: 1"
+      },
+      "peakRanking": {
+        "value": "No. 2"
+      },
+      "signature": {
+        "value": "The Warrior",
+        "detail": "Post-1990s English champion"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2024",
+      "tripleCrownTitles": "2 (World 1, Masters 1)",
+      "rankingTitles": "10",
+      "maximum147s": "5"
+    }
+  },
+  "luca-brecel": {
+    "image": "https://www.wpbsa.com/wp-content/uploads/Luca-Brceel-1200x1200-1-1024x1024.png",
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "1",
+        "detail": "World Championship: 1 · UK Championship: 0 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "No. 2"
+      },
+      "signature": {
+        "value": "Belgian Bullet",
+        "detail": "Continental European breakthrough"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2023",
+      "tripleCrownTitles": "1 (World 1)",
+      "rankingTitles": "4",
+      "maximum147s": "1"
+    }
+  },
+  "zhao-xintong": {
+    "image": "https://www.wpbsa.com/wp-content/uploads/Zhao-Xintong-1024x1024.png",
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "2",
+        "detail": "World Championship: 1 · UK Championship: 1 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "No. 6"
+      },
+      "signature": {
+        "value": "Cyclone",
+        "detail": "First Chinese World Champion"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2025",
+      "tripleCrownTitles": "2 (World 1, UK 1)",
+      "rankingTitles": "6",
+      "maximum147s": "1"
+    }
+  },
+  "wu-yize": {
+    "image": "https://www.wpbsa.com/wp-content/uploads/Wu-Yize-1-1024x1024.png",
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "1",
+        "detail": "World Championship: 1 · UK Championship: 0 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "Top 16"
+      },
+      "signature": {
+        "value": "New wave",
+        "detail": "Second consecutive Chinese world champion"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Champion: 2026",
+      "tripleCrownTitles": "1 (World 1)",
+      "rankingTitles": "2",
+      "maximum147s": "1"
+    }
+  },
+  "si-jiahui": {
+    "imageFocus": "center 16%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "0",
+        "detail": "World Championship: 0 · UK Championship: 0 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "Top 16"
+      },
+      "signature": {
+        "value": "Prospect",
+        "detail": "Young Crucible semi-finalist"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "World Championship semi-finalist: 2023",
+      "tripleCrownTitles": "0",
+      "rankingTitles": "0",
+      "maximum147s": "1"
+    }
+  },
+  "xiao-guodong": {
+    "imageFocus": "center 18%",
+    "keyFacts": {
+      "topTitles": {
+        "value": "0",
+        "detail": "World Championship: 0 · UK Championship: 0 · Masters: 0"
+      },
+      "peakRanking": {
+        "value": "Top 10"
+      },
+      "signature": {
+        "value": "Late bloomer",
+        "detail": "Late-blooming Chinese winner"
+      }
+    },
+    "careerStats": {
+      "bestMajorFinish": "Ranking-event winner; no Triple Crown final configured",
+      "tripleCrownTitles": "0",
+      "rankingTitles": "2",
+      "maximum147s": "3"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+/* Shared breakpoints. Kept last so media rules win over the section files above. */
+
+@media (max-width: 980px) {
+  .app-root {
+    padding: 12px;
+  }
+
+  .app-root:has(.app-shell) {
+    height: auto;
+    overflow: visible;
+  }
+
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .app-shell {
+    grid-template-columns: 1fr;
+    height: auto;
+    overflow: visible;
+  }
+
+  .control-panel {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .players-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-game-header,
+  .comparison-visual-row {
+    grid-template-columns: 1fr;
+  }
+
+  .rules-comparison-visual {
+    min-width: 0;
+  }
+
+  .comparison-game-header > span {
+    display: none;
+  }
+
+  .rules-modal-panel {
+    max-height: 94vh;
+  }
+
+  .rules-modal-body {
+    padding: 12px;
+  }
+
+  .rule-step-visual {
+    min-height: 240px;
+  }
+
+  .rule-step-visual .rule-step-image {
+    height: 240px;
+  }
+
+  .three-case-panel,
+  .table-tour-demo,
+  .ghost-aim-demo,
+  .cue-control-demo,
+  .equipment-demo,
+  .about-hero,
+  .about-story-grid,
+  .about-photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero {
+    min-height: 0;
+    max-height: none;
+    aspect-ratio: auto;
+  }
+
+  .about-hero img {
+    min-height: 360px;
+  }
+
+  .simulation-case-menu {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .table-tour-info,
+  .ghost-aim-info,
+  .cue-control-info,
+  .equipment-info {
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    border-left: 0;
+  }
+
+  .region-rail {
+    position: static;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .region-note {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 620px) {
+  .map-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .stage-timeline {
+    grid-template-columns: repeat(5, minmax(140px, 1fr));
+    padding-inline: 12px;
+  }
+
+  .view-switch {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .map-frame,
+  .map-chart {
+    min-height: 460px;
+  }
+
+  .players-intro h2 {
+    font-size: 25px;
+  }
+
+  .region-rail {
+    grid-template-columns: 1fr;
+  }
+
+  .simulation-case-menu {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-panel {
+    padding: 14px;
+  }
+
+  .generation-timeline {
+    padding-left: 24px;
+  }
+
+  .player-card {
+    grid-template-rows: 210px minmax(0, 1fr);
+  }
+}

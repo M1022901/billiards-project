@@ -1,0 +1,107 @@
+/* Simulation page shell: intro block, case stage and the case menu. */
+
+.three-case-panel {
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  background: #ffffff;
+  padding: 16px;
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.08);
+}
+
+.simulation-page {
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+.simulation-intro {
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  background: #ffffff;
+  padding: 18px;
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.08);
+}
+
+.simulation-intro span {
+  display: block;
+  color: #65746f;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.simulation-intro h2 {
+  margin: 6px 0 0;
+  color: #111827;
+  font-size: 34px;
+  line-height: 1.05;
+}
+
+.simulation-intro p {
+  max-width: 900px;
+  margin: 10px 0 0;
+  color: #40504b;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.simulation-case-menu {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.simulation-case-menu button {
+  display: grid;
+  align-content: start;
+  min-height: 132px;
+  border: 1px solid #dbe5e0;
+  background: #ffffff;
+  padding: 12px;
+  text-align: left;
+  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.06);
+}
+
+.simulation-case-menu button.active {
+  border-color: #0f766e;
+  background: color-mix(in srgb, #0f766e 8%, #ffffff);
+}
+
+.simulation-case-menu button:disabled {
+  cursor: not-allowed;
+  background: #f3f5f4;
+  color: #9aa6a1;
+  box-shadow: none;
+}
+
+.simulation-case-menu span {
+  color: #65746f;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.simulation-case-menu strong {
+  margin-top: 7px;
+  color: #111827;
+  font-size: 17px;
+  line-height: 1.12;
+}
+
+.simulation-case-menu em {
+  margin-top: 7px;
+  color: #52615c;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.simulation-case-menu button:disabled strong,
+.simulation-case-menu button:disabled em,
+.simulation-case-menu button:disabled span {
+  color: #9aa6a1;
+}
+
+.simulation-stage {
+  margin-top: 16px;
+}

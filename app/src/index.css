@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Section partials. Order matters: base first, responsive media rules last. */
+@import "./styles/base.css";
+@import "./styles/pages/heatMap.css";
+@import "./styles/pages/rules101.css";
+@import "./styles/pages/hallOfFame.css";
+@import "./styles/pages/about.css";
+@import "./styles/simulation/simulationShell.css";
+@import "./styles/simulation/tableTour.css";
+@import "./styles/simulation/ghostAiming.css";
+@import "./styles/simulation/cueControl.css";
+@import "./styles/simulation/equipment.css";
+@import "./styles/responsive.css";

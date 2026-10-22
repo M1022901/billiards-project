@@ -1,0 +1,294 @@
+/* Heat Map page: world map frame, stage timeline and the country control panel. */
+
+.app-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 18px;
+  height: calc(100vh - 106px);
+  min-height: 0;
+  max-width: 1480px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.map-area,
+.control-panel {
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  background: #ffffff;
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.08);
+}
+
+.map-area {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.map-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.1);
+}
+
+.map-header h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.map-header h2 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.map-header p {
+  margin: 4px 0 0;
+  color: #5d6b66;
+  font-size: 14px;
+}
+
+.map-header strong {
+  flex: 0 0 auto;
+  color: #0f766e;
+}
+
+.stage-timeline {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(112px, 1fr));
+  gap: 0;
+  padding: 14px 18px 16px;
+  overflow-x: auto;
+}
+
+.stage-button {
+  position: relative;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  align-items: center;
+  min-width: 132px;
+  min-height: 64px;
+  margin-right: -14px;
+  border: 0;
+  background: #e8eeeb;
+  color: #26332f;
+  padding: 9px 28px 9px 30px;
+  text-align: left;
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 50%, calc(100% - 18px) 100%, 0 100%, 18px 50%);
+  transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.stage-button:first-child {
+  padding-left: 12px;
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 50%, calc(100% - 18px) 100%, 0 100%);
+}
+
+.stage-button:hover,
+.stage-button.active {
+  z-index: 2;
+  background: var(--stage-color);
+  color: #ffffff;
+}
+
+.stage-button.active {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.16);
+}
+
+.stage-button.past {
+  background: color-mix(in srgb, var(--stage-color) 26%, #e8eeeb);
+}
+
+.stage-number {
+  grid-row: 1 / span 2;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.86);
+  color: #26332f;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.stage-button.active .stage-number,
+.stage-button:hover .stage-number {
+  border-color: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--stage-color);
+}
+
+.stage-button b {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.stage-button em {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-style: normal;
+  opacity: 0.82;
+}
+
+.map-frame {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  background: #dce8e3;
+}
+
+.map-chart {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+.error-box {
+  position: absolute;
+  z-index: 2;
+  top: 16px;
+  left: 16px;
+  max-width: min(520px, calc(100% - 32px));
+  padding: 12px 14px;
+  border: 1px solid #fecaca;
+  background: #fff1f2;
+  color: #991b1b;
+}
+
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+  min-height: 0;
+  max-height: none;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.stage-card,
+.selected-card,
+.hotspot-list {
+  border-bottom: 1px solid rgba(17, 24, 39, 0.1);
+  padding-bottom: 14px;
+}
+
+.stage-card span,
+.selected-card span,
+.hotspot-list > span {
+  display: block;
+  margin-bottom: 7px;
+  color: #4b5c56;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.stage-card h2,
+.selected-card h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 22px;
+  line-height: 1.15;
+}
+
+.stage-card p,
+.selected-card p {
+  margin: 8px 0 0;
+  color: #4b5c56;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.selected-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 46px;
+  gap: 10px 12px;
+  align-items: center;
+}
+
+.selected-card span,
+.selected-card p {
+  grid-column: 1 / -1;
+}
+
+.selected-color {
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(17, 24, 39, 0.18);
+}
+
+.hotspot-list {
+  display: grid;
+  gap: 8px;
+}
+
+.previous-list {
+  min-height: 0;
+  overflow: auto;
+}
+
+.hotspot-list button {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  min-height: 48px;
+  border: 1px solid transparent;
+  background: #f4f7f5;
+  color: #24312d;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.hotspot-list button:hover,
+.hotspot-list button.selected {
+  border-color: #0f766e;
+  background: #e6eeea;
+}
+
+.hotspot-list i {
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(17, 24, 39, 0.16);
+}
+
+.hotspot-list b,
+.hotspot-list em {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hotspot-list b {
+  font-size: 14px;
+}
+
+.hotspot-list em {
+  margin-top: 2px;
+  color: #5d6b66;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.previous-list button {
+  min-height: 42px;
+  background: #fafbf9;
+}

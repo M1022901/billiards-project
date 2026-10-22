@@ -1,0 +1,22 @@
+{
+  "name": "biliards-project-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "build": "vite build --base ./",
+    "preview": "vite preview --host 127.0.0.1 --port 5174 --strictPort",
+    "sync:players": "node scripts/sync-player-data.mjs",
+    "fetch:equipment": "node scripts/fetch-equipment-images.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "echarts": "^6.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.3.3",
+    "three": "^0.185.1",
+    "vite": "^7.1.5"
+  }
+}

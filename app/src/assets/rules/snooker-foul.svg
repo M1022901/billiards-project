@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#111827"/><rect x="150" y="110" width="1300" height="780" rx="58" fill="#51311f"/><rect x="210" y="170" width="1180" height="660" rx="28" fill="#168c4c"/>
+  <text x="245" y="250" font-family="Inter,Arial" font-size="46" font-weight="900" fill="#fff">Foul: wrong ball first</text>
+  <text x="245" y="300" font-family="Inter,Arial" font-size="26" font-weight="700" fill="#fecaca">If a red is on, hitting a colour first is a foul.</text>
+  <g font-family="Inter,Arial" font-size="24" font-weight="900" text-anchor="middle"><circle cx="420" cy="620" r="34" fill="#f8fafc"/><text x="420" y="629">C</text><circle cx="720" cy="510" r="34" fill="#2563eb"/><text x="720" y="519" fill="#fff">5</text><circle cx="890" cy="420" r="34" fill="#ef4444"/><text x="890" y="429" fill="#fff">1</text></g>
+  <path d="M420 620 L720 510" stroke="#fecaca" stroke-width="11" fill="none" stroke-linecap="round"/><path d="M420 620 L890 420" stroke="#bbf7d0" stroke-width="7" stroke-dasharray="18 14" fill="none"/>
+  <rect x="975" y="610" width="340" height="110" rx="16" fill="#fee2e2"/><text x="1010" y="655" font-family="Inter,Arial" font-size="28" font-weight="900" fill="#7f1d1d">Penalty points</text><text x="1010" y="690" font-family="Inter,Arial" font-size="21" font-weight="700" fill="#991b1b">Opponent receives at least 4.</text>
+</svg>

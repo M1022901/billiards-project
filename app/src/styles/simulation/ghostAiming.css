@@ -1,0 +1,310 @@
+/* Ghost Ball Aiming demo (case 02). */
+
+.ghost-aim-demo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  min-height: 560px;
+  border: 1px solid #dbe5e0;
+  background: #0b1713;
+}
+
+.ghost-aim-stage {
+  position: relative;
+  min-width: 0;
+  min-height: 560px;
+}
+
+.ghost-aim-canvas {
+  min-width: 0;
+  min-height: 560px;
+}
+
+.ghost-aim-canvas canvas {
+  display: block;
+}
+
+.ghost-aim-info {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.91), rgba(15, 35, 31, 0.94));
+  padding: 16px;
+  color: #ffffff;
+}
+
+.ghost-shot-switch {
+  display: grid;
+  gap: 8px;
+}
+
+.ghost-mode-badge {
+  border: 1px solid rgba(56, 189, 248, 0.36);
+  background: rgba(56, 189, 248, 0.12);
+  padding: 8px 10px;
+  color: #bae6fd;
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ghost-mode-badge.real {
+  border-color: rgba(250, 204, 21, 0.4);
+  background: rgba(250, 204, 21, 0.14);
+  color: #fde68a;
+}
+
+.ghost-shot-switch button {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  column-gap: 9px;
+  row-gap: 3px;
+  align-items: center;
+  min-height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.07);
+  padding: 8px 9px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.ghost-shot-switch button:disabled {
+  cursor: not-allowed;
+  opacity: 0.56;
+}
+
+.ghost-shot-switch button.active {
+  border-color: color-mix(in srgb, var(--shot-color, #38bdf8) 74%, #ffffff);
+  background: color-mix(in srgb, var(--shot-color, #38bdf8) 18%, rgba(255, 255, 255, 0.08));
+}
+
+.ghost-shot-switch span {
+  grid-row: 1 / span 2;
+  width: 10px;
+  height: 100%;
+  min-height: 28px;
+  border-radius: 999px;
+  background: var(--shot-color, #38bdf8);
+}
+
+.ghost-shot-switch b {
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.ghost-shot-switch em {
+  min-width: 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 760;
+  line-height: 1.15;
+}
+
+.ghost-view-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 4px;
+}
+
+.ghost-view-switch button {
+  min-height: 34px;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.ghost-view-switch button.active {
+  background: #facc15;
+  color: #17211d;
+}
+
+.ghost-view-switch button:disabled,
+.ghost-sim-controls button:disabled,
+.ghost-sim-controls input:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.ghost-aim-info > span {
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 5px 8px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ghost-aim-info h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 1.05;
+}
+
+.ghost-aim-info p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.ghost-sim-controls {
+  display: grid;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 10px;
+}
+
+.ghost-sim-controls label {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 7px 10px;
+  align-items: center;
+}
+
+.ghost-sim-controls label b {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.ghost-sim-controls label em {
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 850;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.ghost-sim-controls input {
+  grid-column: 1 / -1;
+  width: 100%;
+  accent-color: #facc15;
+}
+
+.ghost-sim-controls button {
+  min-height: 38px;
+  border: 0;
+  background: #facc15;
+  color: #17211d;
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.ghost-sim-controls button:active {
+  transform: translateY(1px);
+}
+
+.ghost-legend {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr) 18px minmax(0, 1fr);
+  gap: 8px 9px;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  padding-top: 11px;
+}
+
+.ghost-legend i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+}
+
+.ghost-legend b {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 11px;
+  font-weight: 850;
+  line-height: 1.15;
+}
+
+.ghost-legend .cue {
+  border: 1px solid rgba(15, 23, 42, 0.3);
+  background: #f8fafc;
+}
+
+.ghost-legend .ghost {
+  border: 2px solid #f8fafc;
+  background: rgba(248, 250, 252, 0.28);
+}
+
+.ghost-legend .route {
+  height: 5px;
+  border-radius: 999px;
+  background: var(--shot-color, #38bdf8);
+}
+
+.ghost-result-modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: grid;
+  gap: 10px;
+  width: min(360px, calc(100% - 32px));
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(15, 23, 42, 0.9);
+  padding: 16px;
+  color: #ffffff;
+  box-shadow: 0 24px 54px rgba(0, 0, 0, 0.34);
+  z-index: 3;
+}
+
+.ghost-result-modal.success {
+  border-color: rgba(34, 197, 94, 0.48);
+}
+
+.ghost-result-modal.miss {
+  border-color: rgba(248, 113, 113, 0.5);
+}
+
+.ghost-result-modal span {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.ghost-result-modal p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 14px;
+  font-weight: 720;
+  line-height: 1.4;
+}
+
+.ghost-result-modal div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.ghost-result-modal button {
+  min-height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.ghost-result-modal button:last-child {
+  border-color: #facc15;
+  background: #facc15;
+  color: #17211d;
+}

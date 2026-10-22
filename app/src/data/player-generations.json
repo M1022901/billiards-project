@@ -1,0 +1,628 @@
+[
+  {
+    "id": "regional-cultures",
+    "period": "Culture Map",
+    "title": "Three major cue-sport cultures",
+    "context": "The next detail page can compare three rule families: British snooker, American 9-ball pool and Chinese heyball. These cultures connect geography, broadcast format, table equipment and player identity.",
+    "accent": "#475569",
+    "players": [
+      {
+        "name": "United Kingdom",
+        "country": "Snooker culture",
+        "discipline": "Snooker",
+        "eraRole": "Long-frame precision and television drama",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Snooker%20table%20at%20a%20snooker%20club.jpg",
+        "stats": [
+          { "label": "Core game", "value": "Snooker", "icon": "table" },
+          { "label": "Signature event", "value": "World Championship", "icon": "trophy" },
+          { "label": "Cultural engine", "value": "BBC / Crucible", "icon": "tv" }
+        ],
+        "honors": ["Crucible Theatre became the symbolic home of modern snooker", "Colour TV made red-colour patterns and long tactical frames watchable"],
+        "traits": ["Safety battles", "Centuries and 147s", "Long-match pressure"],
+        "anecdotes": ["The 1985 black-ball final became a reference point for how TV could turn snooker into national drama."],
+        "note": "Use this region as the bridge into snooker rules: large table, many reds, tactical safety and break-building."
+      },
+      {
+        "name": "United States",
+        "country": "Pool culture",
+        "discipline": "9-Ball",
+        "eraRole": "Fast rotation pool and tournament showdowns",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pool%20Billard%20(13883550574).jpg",
+        "stats": [
+          { "label": "Core game", "value": "9-Ball", "icon": "table" },
+          { "label": "Signature event", "value": "U.S. Open 9-Ball", "icon": "trophy" },
+          { "label": "Format", "value": "Race sets", "icon": "target" }
+        ],
+        "honors": ["U.S. Open 9-Ball and Mosconi Cup shaped modern American pool identity", "American pool culture prizes break power, run-outs and pressure racks"],
+        "traits": ["Explosive break", "Pattern play", "Short-race drama"],
+        "anecdotes": ["The Mosconi Cup turned USA vs Europe into a yearly team-rivalry format with crowd noise closer to darts than snooker."],
+        "note": "Use this region as the bridge into 9-ball rules: rotation order, break control, safeties and hill-hill pressure."
+      },
+      {
+        "name": "China",
+        "country": "Heyball culture",
+        "discipline": "Chinese 8-Ball / Heyball",
+        "eraRole": "Hybrid table, mass participation and fast-growing prize events",
+        "image": "https://usceba.org/wp-content/uploads/2025/09/China-wins-8-ball-snooker-climbing-gold-at-World-Games.jpg",
+        "stats": [
+          { "label": "Core game", "value": "Heyball", "icon": "table" },
+          { "label": "Signature circuit", "value": "JOY / WPA Heyball", "icon": "trophy" },
+          { "label": "Growth path", "value": "World Games", "icon": "globe" }
+        ],
+        "honors": ["Heyball entered the WPA international structure and is being promoted globally", "Large Chinese events have helped make the discipline commercially visible"],
+        "traits": ["Chinese 8-ball rules", "Pool-style object balls", "Snooker-like table demands"],
+        "anecdotes": ["The game is useful educationally because it looks familiar to pool players but punishes them with tighter, snooker-like potting demands."],
+        "note": "Use this region as the bridge into Chinese 8-ball rules: hybrid equipment, solids/stripes structure and regional identity."
+      }
+    ]
+  },
+  {
+    "id": "tv-age",
+    "period": "1970s-1980s",
+    "title": "Television made snooker visible",
+    "context": "Colour television and BBC programming made snooker easy to follow at home. This generation turned tactical safety play, long matches and player personalities into mass entertainment.",
+    "accent": "#0891b2",
+    "players": [
+      {
+        "name": "Steve Davis",
+        "country": "England",
+        "discipline": "Snooker",
+        "eraRole": "1980s professional model",
+        "nickname": "The Nugget",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_davis.JPG",
+        "stats": [
+          { "label": "World titles", "value": "6", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "28", "icon": "medal" },
+          { "label": "Peak rank", "value": "No. 1", "icon": "rank" },
+          { "label": "147s", "value": "1", "icon": "147" }
+        ],
+        "honors": ["World Champion in 1981, 1983, 1984, 1987, 1988 and 1989", "Six UK Championships and three Masters titles", "First officially recognised televised competitive 147 in 1982"],
+        "traits": ["Precise safety", "systematic practice", "low-risk match control"],
+        "anecdotes": ["Known as The Nugget, Davis became the face of snooker's 1980s TV boom.", "His rivalry era culminated culturally in the 1985 black-ball final against Dennis Taylor."],
+        "note": "Davis represented the first fully modern television-era professional: disciplined, repeatable and commercially marketable."
+      },
+      {
+        "name": "Alex Higgins",
+        "country": "Northern Ireland",
+        "discipline": "Snooker",
+        "eraRole": "TV personality catalyst",
+        "nickname": "Hurricane",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexhiggins2008.jpg",
+        "stats": [
+          { "label": "World titles", "value": "2", "icon": "trophy" },
+          { "label": "Triple Crown", "value": "3", "icon": "medal" },
+          { "label": "Persona", "value": "Icon", "icon": "spark" }
+        ],
+        "honors": ["World Champion in 1972 and 1982", "1983 UK Champion", "1978 and 1981 Masters Champion"],
+        "traits": ["Fast, instinctive play", "emotional intensity", "audience magnet"],
+        "anecdotes": ["His 1982 World Championship semi-final clearance against Jimmy White is still treated as a mythic TV moment.", "He helped sell snooker as drama, not only precision."],
+        "note": "Higgins is important for culture even when compared with later title totals."
+      },
+      {
+        "name": "Jimmy White",
+        "country": "England",
+        "discipline": "Snooker",
+        "eraRole": "People's champion",
+        "nickname": "The Whirlwind",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimmy%20White%202024%20(cropped).jpg",
+        "stats": [
+          { "label": "Ranking titles", "value": "10", "icon": "medal" },
+          { "label": "World finals", "value": "6", "icon": "trophy" },
+          { "label": "Peak rank", "value": "No. 2", "icon": "rank" }
+        ],
+        "honors": ["Six-time World Championship finalist", "1992 UK Champion", "Masters Champion in 1984"],
+        "traits": ["Attacking left-hander", "fluent break-building", "popular nearly-man story"],
+        "anecdotes": ["White's repeated Crucible near-misses made him one of the sport's most loved TV figures.", "The 1994 final against Hendry turned a missed black into one of snooker's most painful stories."],
+        "note": "White is useful as a card about popularity: he shows that cultural impact is not only measured by world titles."
+      }
+    ]
+  },
+  {
+    "id": "hendry-era",
+    "period": "1990s",
+    "title": "The break-building revolution",
+    "context": "Stephen Hendry changed what elite snooker looked like: aggressive long potting, early frame-winning breaks and a champion's refusal to play only containment.",
+    "accent": "#7c3aed",
+    "players": [
+      {
+        "name": "Stephen Hendry",
+        "country": "Scotland",
+        "discipline": "Snooker",
+        "eraRole": "1990s dominant champion",
+        "nickname": "The King of the Crucible",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephen%20Hendry%20PHC%202011%20(cropped).png",
+        "stats": [
+          { "label": "World titles", "value": "7", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "36", "icon": "medal" },
+          { "label": "Peak rank", "value": "No. 1", "icon": "rank" },
+          { "label": "147s", "value": "11", "icon": "147" }
+        ],
+        "honors": ["Seven-time World Champion", "Five UK Championships and six Masters titles", "Youngest World Champion at 21 years 106 days"],
+        "traits": ["Ruthless break-building", "long-pot pressure", "front-running dominance"],
+        "anecdotes": ["Hendry's ten-frame burst against Jimmy White in the 1992 final became a symbol of his killer instinct.", "He made one-visit snooker the new elite standard."],
+        "note": "Hendry forced the next generation to become more attacking."
+      },
+      {
+        "name": "John Parrott",
+        "country": "England",
+        "discipline": "Snooker",
+        "eraRole": "Bridge from Davis to Hendry",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Parrott%202024.jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "9", "icon": "medal" },
+          { "label": "Peak rank", "value": "No. 2", "icon": "rank" }
+        ],
+        "honors": ["1991 World Champion", "1991 UK Champion", "Nine ranking titles"],
+        "traits": ["Solid all-rounder", "match-play temperament", "media-friendly presence"],
+        "anecdotes": ["Parrott beat Jimmy White 18-11 in the 1991 world final.", "He later became a familiar BBC studio presence, extending his cultural role beyond playing."],
+        "note": "Parrott was an important early-1990s figure before Hendry's dominance became overwhelming."
+      },
+      {
+        "name": "Ken Doherty",
+        "country": "Ireland",
+        "discipline": "Snooker",
+        "eraRole": "International Crucible winner",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Doherty%20PHC%202012-3%20(cropped).jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "6", "icon": "medal" },
+          { "label": "Triple Crown finals", "value": "3", "icon": "spark" }
+        ],
+        "honors": ["1997 World Champion", "Six ranking titles", "Reached finals in all three Triple Crown events"],
+        "traits": ["Gritty safety", "underdog resilience", "big-match patience"],
+        "anecdotes": ["Doherty ended Hendry's World Championship reign in the 1997 final.", "His nickname The Darling of Dublin captured his role as Ireland's major snooker figure."],
+        "note": "Doherty broadened the champion map beyond Britain and showed that defensive craft still mattered."
+      }
+    ]
+  },
+  {
+    "id": "class-92",
+    "period": "1992 class onward",
+    "title": "The long-lived superstars",
+    "context": "Ronnie O'Sullivan, John Higgins and Mark Williams turned professional in 1992 and remained relevant for decades. Their contrast is useful for player cards: genius speed, all-round craft and natural potting.",
+    "accent": "#0f766e",
+    "players": [
+      {
+        "name": "Ronnie O'Sullivan",
+        "country": "England",
+        "discipline": "Snooker",
+        "eraRole": "The transcendent star",
+        "nickname": "The Rocket",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/German%20Masters%202012%20-%20Ronnie%20O%27Sullivan.JPG",
+        "stats": [
+          { "label": "World titles", "value": "7", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "41", "icon": "medal" },
+          { "label": "Triple Crowns", "value": "23", "icon": "crown" },
+          { "label": "147s", "value": "15", "icon": "147" }
+        ],
+        "honors": ["Seven-time World Champion", "Record ranking-title leader with 41", "Record 23 Triple Crown titles"],
+        "traits": ["Fastest elite tempo", "ambidextrous cueing", "creative break-building"],
+        "anecdotes": ["His 1997 Crucible 147 is remembered as the fastest maximum in professional snooker.", "His personality card should feel different: genius, volatility, honesty and theatre are part of the brand."],
+        "note": "O'Sullivan became the sport's global reference point: talent, speed, longevity and public attention in one figure."
+      },
+      {
+        "name": "John Higgins",
+        "country": "Scotland",
+        "discipline": "Snooker",
+        "eraRole": "The complete match player",
+        "nickname": "The Wizard of Wishaw",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Higgins%20PHC%202012.jpg",
+        "stats": [
+          { "label": "World titles", "value": "4", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "33", "icon": "medal" },
+          { "label": "Peak rank", "value": "No. 1", "icon": "rank" },
+          { "label": "147s", "value": "13", "icon": "147" }
+        ],
+        "honors": ["Four-time World Champion", "33 ranking titles", "Over 1,000 competitive centuries"],
+        "traits": ["All-round balance", "tactical judgement", "pressure clearances"],
+        "anecdotes": ["The Masters deciding-frame clearance against O'Sullivan in 2006 is a classic pressure example.", "Higgins is often the teaching model for complete snooker, not just spectacular snooker."],
+        "note": "Higgins is often used as the model for complete snooker: scoring, safety, cue-ball control and match IQ."
+      },
+      {
+        "name": "Mark Williams",
+        "country": "Wales",
+        "discipline": "Snooker",
+        "eraRole": "Natural potter",
+        "nickname": "The Welsh Potting Machine",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20J%20Williams%202025.jpg",
+        "stats": [
+          { "label": "World titles", "value": "3", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "27", "icon": "medal" },
+          { "label": "Peak rank", "value": "No. 1", "icon": "rank" },
+          { "label": "Triple Crowns", "value": "7", "icon": "crown" }
+        ],
+        "honors": ["World Champion in 2000, 2003 and 2018", "Completed the Triple Crown in the 2002/03 season", "One of the greatest natural potters"],
+        "traits": ["Relaxed rhythm", "thin cuts and long pots", "unusual pressure calm"],
+        "anecdotes": ["His 2018 World Championship comeback title came 15 years after his previous world crown.", "His relaxed public persona contrasts with extraordinary pressure potting."],
+        "note": "Williams' laid-back style makes him a strong contrast card against the more intense Higgins and Hendry archetypes."
+      }
+    ]
+  },
+  {
+    "id": "pool-nine-ball",
+    "period": "1990s-now",
+    "title": "American 9-ball and global pool icons",
+    "context": "9-ball culture is faster, louder and more rack-based than snooker. The American line is important, but modern pool is also Filipino, Taiwanese, European and increasingly international.",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Efren Reyes",
+        "country": "Philippines",
+        "discipline": "9-Ball / One-pocket / Pool",
+        "eraRole": "The Magician",
+        "nickname": "The Magician",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Efren%20Reyes%20in%20the%20World%209-Ball%20Pool%20Championship.jpg",
+        "imageFocus": "center 16%",
+        "stats": [
+          { "label": "World titles", "value": "Multi", "icon": "trophy" },
+          { "label": "Intl. titles", "value": "100+", "icon": "medal" },
+          { "label": "Signature", "value": "Kicks", "icon": "spark" }
+        ],
+        "honors": ["1999 WPA World 9-Ball Champion", "2004 WPA World 8-Ball Champion", "First player to win world titles in two pool disciplines"],
+        "traits": ["Creative kicking", "one-pocket genius", "impossible escapes"],
+        "anecdotes": ["Nicknamed The Magician because he regularly found escape routes other players did not see.", "His 1994 U.S. Open 9-Ball win over Earl Strickland introduced many American fans to Filipino pool greatness."],
+        "note": "Reyes is essential for explaining pool culture as artistry and problem-solving, not just potting."
+      },
+      {
+        "name": "Earl Strickland",
+        "country": "United States",
+        "discipline": "9-Ball",
+        "eraRole": "American 9-ball firebrand",
+        "nickname": "The Pearl",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Earl%20Strickland.JPG",
+        "stats": [
+          { "label": "World 9-ball", "value": "6", "icon": "trophy" },
+          { "label": "U.S. Open 9-ball", "value": "5", "icon": "medal" },
+          { "label": "Persona", "value": "Volatile", "icon": "spark" }
+        ],
+        "honors": ["Multiple WPA World 9-Ball titles", "Five U.S. Open 9-Ball titles", "BCA Hall of Fame inductee"],
+        "traits": ["Explosive shot-making", "intense break-and-run pressure", "combative stage presence"],
+        "anecdotes": ["Strickland is associated with one of pool's most famous run-out stories: an 11-rack package in 1996.", "His rivalry and contrast with Efren Reyes is perfect for a culture card: American fire vs Filipino imagination."],
+        "note": "Use Earl to show that American pool is partly sport, partly showmanship."
+      },
+      {
+        "name": "Shane Van Boening",
+        "country": "United States",
+        "discipline": "9-Ball / 8-Ball",
+        "eraRole": "Greatest American of his generation",
+        "nickname": "The South Dakota Kid",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shane%20Van%20Boening.JPG",
+        "imageFocus": "center 14%",
+        "stats": [
+          { "label": "World 9-ball", "value": "1", "icon": "trophy" },
+          { "label": "U.S. Open 9-ball", "value": "5", "icon": "medal" },
+          { "label": "BCA HOF", "value": "2024", "icon": "crown" }
+        ],
+        "honors": ["2022 WPA World 9-Ball Champion", "2023 WPA World 8-Ball Champion", "Five U.S. Open 9-Ball titles"],
+        "traits": ["Power break", "pattern discipline", "quiet focus"],
+        "anecdotes": ["Known as The South Dakota Kid, he comes from a pool-playing family.", "His deafness is often framed not as a limitation but as part of his extraordinary visual concentration."],
+        "note": "Van Boening is the cleanest bridge from classic American pool to the modern Matchroom era."
+      },
+      {
+        "name": "Fedor Gorst",
+        "country": "Russia / United States",
+        "discipline": "9-Ball / 10-Ball",
+        "eraRole": "Modern global pool technician",
+        "nickname": "The Ghost",
+        "image": "https://fedorgorst.com/cdn/shop/files/fedor-hero-2.webp?v=1753436953&width=1500",
+        "imageFocus": "center 12%",
+        "stats": [
+          { "label": "World 9-ball", "value": "2", "icon": "trophy" },
+          { "label": "First title age", "value": "19", "icon": "spark" },
+          { "label": "Style", "value": "Robot", "icon": "target" }
+        ],
+        "honors": ["2019 WPA World 9-Ball Champion", "2024 WPA World 9-Ball Champion", "Mosconi Cup winner with Team Europe"],
+        "traits": ["Mechanical consistency", "calm under pressure", "all-around pool training"],
+        "anecdotes": ["Gorst switched from Russian pyramid to American pool as a child.", "His second world 9-ball title made him one of the youngest multiple world champions in pool."],
+        "note": "Gorst shows the new professional pool archetype: global, technical, data-aware and extremely consistent."
+      }
+    ]
+  },
+  {
+    "id": "global-china",
+    "period": "2000s-2010s",
+    "title": "Snooker globalisation and China's first wave",
+    "context": "After the TV boom, snooker became a global product. Ding Junhui's 2005 China Open win created a mass Chinese audience, while Marco Fu, Liang Wenbo and Neil Robertson showed that elite snooker was no longer only British.",
+    "accent": "#d97706",
+    "players": [
+      {
+        "name": "Ding Junhui",
+        "country": "China",
+        "discipline": "Snooker",
+        "eraRole": "China's breakthrough figure",
+        "nickname": "Star of the East",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ding%20Junhui%202025%20Masters.jpg",
+        "stats": [
+          { "label": "World titles", "value": "0", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "15", "icon": "medal" },
+          { "label": "UK titles", "value": "3", "icon": "trophy" },
+          { "label": "Masters", "value": "1", "icon": "crown" },
+          { "label": "Peak rank", "value": "No. 1", "icon": "rank" },
+          { "label": "Career prize", "value": "GBP 5.26m+", "icon": "medal" },
+          { "label": "147s", "value": "7", "icon": "147" }
+        ],
+        "honors": ["15 ranking titles", "Three-time UK Champion", "2011 Masters Champion", "First Asian player to reach the World Championship final"],
+        "traits": ["Cue-ball control", "clean positional play", "calm scoring patterns"],
+        "anecdotes": ["His 2005 China Open win over Stephen Hendry was watched by a huge Chinese TV audience.", "Ding became the player many later Chinese professionals named as their model."],
+        "note": "Ding is the key card for China's first snooker wave."
+      },
+      {
+        "name": "Marco Fu",
+        "country": "Hong Kong",
+        "discipline": "Snooker",
+        "eraRole": "Hong Kong's leading pro",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marco%20Fu.JPG",
+        "stats": [
+          { "label": "Ranking titles", "value": "3", "icon": "medal" },
+          { "label": "Triple Crown SFs", "value": "3", "icon": "spark" },
+          { "label": "147s", "value": "4", "icon": "147" }
+        ],
+        "honors": ["Three ranking titles", "Reached at least the semi-final stage of all three Triple Crown events", "Hong Kong's most successful snooker player"],
+        "traits": ["Composed match play", "technical consistency", "international professionalism"],
+        "anecdotes": ["Fu reached a ranking final as the world number 337 at the 1998 Grand Prix.", "His career helps show that Chinese-language snooker culture was not only mainland China."],
+        "note": "Fu made Hong Kong a visible part of the professional snooker map before mainland China's deeper player pipeline matured."
+      },
+      {
+        "name": "Liang Wenbo",
+        "country": "China",
+        "discipline": "Snooker",
+        "eraRole": "Early mainland contender",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Liang%20Wenbo%20PHC%202016.jpg",
+        "stats": [
+          { "label": "Ranking titles", "value": "1", "icon": "medal" },
+          { "label": "UK final", "value": "2015", "icon": "trophy" },
+          { "label": "Status", "value": "Banned", "icon": "alert" }
+        ],
+        "honors": ["2016 English Open champion", "2015 UK Championship finalist", "World Cup winner with Ding Junhui"],
+        "traits": ["Open attacking style", "expressive table presence", "early Chinese tour visibility"],
+        "anecdotes": ["Liang was one of the first mainland Chinese players many UK viewers saw deep in major events.", "His card needs an integrity note: WPBSA issued him a lifetime ban in 2023."],
+        "note": "Historically relevant to China's first wave, but present with context rather than celebration."
+      },
+      {
+        "name": "Neil Robertson",
+        "country": "Australia",
+        "discipline": "Snooker",
+        "eraRole": "Non-UK Triple Crown winner",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Neil%20Robertson%20PHC%202012.jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "26", "icon": "medal" },
+          { "label": "Centuries season", "value": "103", "icon": "147" }
+        ],
+        "honors": ["2010 World Champion", "Career Triple Crown winner", "First player to compile over 100 centuries in a season"],
+        "traits": ["Long potting", "heavy scoring", "century production"],
+        "anecdotes": ["Robertson became the first Australian Crucible world champion.", "His 2013/14 century record is useful for showing how modern scoring volume exploded."],
+        "note": "Robertson is the clearest example of the post-TV game's reach beyond Britain and China."
+      }
+    ]
+  },
+  {
+    "id": "heyball-china",
+    "period": "2010s-now",
+    "title": "Chinese 8-ball / Heyball stars",
+    "context": "Heyball grew from China's domestic billiards market and is now being internationalised through WPA and JOY events. Its player culture is different from snooker: more table-running, more hybrid equipment, more mass-participation identity.",
+    "accent": "#14b8a6",
+    "players": [
+      {
+        "name": "Zheng Yubo",
+        "country": "China",
+        "discipline": "Heyball",
+        "eraRole": "Chinese heyball standard-bearer",
+        "nickname": "Erbao",
+        "image": "https://images.zhibo.tv/2019/0515/zyb.jpg",
+        "imageFocus": "center 18%",
+        "stats": [
+          { "label": "World Masters", "value": "Multi", "icon": "trophy" },
+          { "label": "Role", "value": "Icon", "icon": "crown" },
+          { "label": "Game", "value": "Heyball", "icon": "table" }
+        ],
+        "honors": ["Multiple JOY World Heyball Masters titles", "Long-time leading Chinese heyball figure", "Important name in domestic Chinese 8-ball culture"],
+        "traits": ["Pattern control", "hybrid-table precision", "big-event experience"],
+        "anecdotes": ["Zheng's name is often one of the first attached to Chinese 8-ball when fans discuss the discipline's domestic stars.", "He is useful for explaining why heyball should not be treated as a small side game in China."],
+        "note": "Use Zheng as the first heyball player card, then add more verified domestic stats as sources are collected."
+      },
+      {
+        "name": "Chu Bingjie",
+        "country": "China",
+        "discipline": "Heyball",
+        "eraRole": "Modern heyball champion",
+        "nickname": "Chu Overlord",
+        "image": "https://n.sinaimg.cn/sinakd20109/762/w1000h562/20230227/7dfd-01fcd140a246f8ea361f96372b5f35d9.jpg",
+        "imageFocus": "center 18%",
+        "stats": [
+          { "label": "World Masters", "value": "2024", "icon": "trophy" },
+          { "label": "Intl. Open", "value": "2025", "icon": "medal" },
+          { "label": "Final score", "value": "21-19", "icon": "target" }
+        ],
+        "honors": ["2024 World Heyball Masters champion", "2025 TENGBO Heyball International Open champion", "Defeated Zhang Taiyi 21-19 in the 2025 final"],
+        "traits": ["Sharp knockout play", "long-race stamina", "modern heyball pressure"],
+        "anecdotes": ["Chu's 2025 International Open win came soon after Zhang Taiyi's World Games form, making the final a useful new-era rivalry card.", "The reported top prize of RMB 2 million shows the commercial scale of elite heyball in China."],
+        "note": "Chu gives the site a current heyball anchor rather than only historical Chinese snooker names."
+      },
+      {
+        "name": "Pan Xiaoting",
+        "country": "China",
+        "discipline": "9-Ball / Chinese pool culture",
+        "eraRole": "Women's billiards visibility figure",
+        "nickname": "Nine-ball Queen",
+        "image": "https://p1-tt-ipv6.byteimg.com/origin/pgc-image/43acbd4828834a8db224122d0b4da13c.jpg",
+        "imageFocus": "center 18%",
+        "stats": [
+          { "label": "World 9-ball", "value": "1", "icon": "trophy" },
+          { "label": "Media role", "value": "Star", "icon": "tv" },
+          { "label": "Culture", "value": "China", "icon": "globe" }
+        ],
+        "honors": ["World 9-Ball champion", "One of China's most recognised cue-sport athletes", "Helped make billiards visible to a wider Chinese audience"],
+        "traits": ["Elegant technique", "media appeal", "women's cue-sport visibility"],
+        "anecdotes": ["Pan is often remembered as a bridge between competitive achievement and mainstream celebrity visibility in China.", "She helps prevent the player page from becoming male-only and snooker-only."],
+        "note": "Use Pan to connect Chinese billiards culture with women's professional pool."
+      },
+      {
+        "name": "Gareth Potts",
+        "country": "Great Britain",
+        "discipline": "Heyball",
+        "eraRole": "British crossover heyball champion",
+        "nickname": "The Golden Boy",
+        "image": "https://cdn.ultimatepool.cloud.insysvt.com/Gareth_Potts_Profile_3_c5321b685f.jpg",
+        "imageFocus": "center 16%",
+        "stats": [
+          { "label": "Heyball worlds", "value": "Multi", "icon": "trophy" },
+          { "label": "2025 WPA", "value": "Win", "icon": "medal" },
+          { "label": "Crossover", "value": "UK-CN", "icon": "globe" }
+        ],
+        "honors": ["Multiple heyball world titles", "2025 WPA Heyball World Champion", "One of the best-known non-Chinese heyball specialists"],
+        "traits": ["Chinese-table adaptation", "experience", "control under long races"],
+        "anecdotes": ["Potts helps show that heyball is not only a Chinese domestic game; it is being exported back toward the UK and global pool scene.", "His success is useful for comparing British cue-sport roots with China's new rule family."],
+        "note": "Potts is a bridge card between UK billiards heritage and Chinese heyball's internationalisation."
+      }
+    ]
+  },
+  {
+    "id": "modern-2010s",
+    "period": "2010s-early 2020s",
+    "title": "Tactical pressure vs high-speed scoring",
+    "context": "The 2010s split the elite snooker game into vivid styles: Selby's suffocating match play, Trump's attacking scoring, Robertson's century machine and a new group of world champions.",
+    "accent": "#64748b",
+    "players": [
+      {
+        "name": "Mark Selby",
+        "country": "England",
+        "discipline": "Snooker",
+        "eraRole": "The pressure specialist",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20selby%20cropped.jpg",
+        "stats": [
+          { "label": "World titles", "value": "4", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "25", "icon": "medal" },
+          { "label": "Triple Crown", "value": "Career", "icon": "crown" }
+        ],
+        "honors": ["Four-time World Champion", "Career Triple Crown winner", "One of the best match players of the modern era"],
+        "traits": ["Safety traps", "mental endurance", "comeback pressure"],
+        "anecdotes": ["Selby is nicknamed The Jester from Leicester, but his table style is usually anything but light-hearted for opponents.", "He is the best card for explaining why snooker is not only potting."],
+        "note": "Selby turns frames into endurance tests."
+      },
+      {
+        "name": "Judd Trump",
+        "country": "England",
+        "discipline": "Snooker",
+        "eraRole": "Modern attacking superstar",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Judd%20Tump%20with%20the%20English%20Open%20Trophy%202023%20-%20Copy.jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "30", "icon": "medal" },
+          { "label": "100 centuries", "value": "Season", "icon": "147" }
+        ],
+        "honors": ["2019 World Champion", "30 ranking titles", "First player to make 100 competitive centuries in a season"],
+        "traits": ["Explosive long potting", "left-handed power", "highlight-friendly scoring"],
+        "anecdotes": ["Trump's shot selection made modern snooker feel more clip-friendly for digital audiences.", "His nickname The Ace in the Pack fits the card-game language of the site."],
+        "note": "Trump modernised the visual appeal of snooker for short clips and fast digital audiences."
+      },
+      {
+        "name": "Kyren Wilson",
+        "country": "England",
+        "discipline": "Snooker",
+        "eraRole": "Post-1990s English champion",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyren%20Wilson%202025%20(1).jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "10", "icon": "medal" },
+          { "label": "Nickname", "value": "Warrior", "icon": "spark" }
+        ],
+        "honors": ["2024 World Champion", "10 ranking titles", "Multiple Triple Crown finals"],
+        "traits": ["Structured scoring", "match stamina", "disciplined temperament"],
+        "anecdotes": ["Wilson's 2024 title made him the post-Class-of-92 English world champion to watch.", "His card works well as a stamina-and-structure archetype."],
+        "note": "Wilson is useful as a transition card between the 1992 class and newer champions."
+      },
+      {
+        "name": "Luca Brecel",
+        "country": "Belgium",
+        "discipline": "Snooker",
+        "eraRole": "Continental European breakthrough",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luca%20Brecel%20EuM%202022-1%20(cropped).jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "4", "icon": "medal" },
+          { "label": "First", "value": "Mainland EU", "icon": "globe" }
+        ],
+        "honors": ["2023 World Champion", "First mainland European Crucible winner", "Four ranking titles"],
+        "traits": ["Creative shot choice", "fearless comebacks", "fluid rhythm"],
+        "anecdotes": ["Brecel's 2023 run included dramatic comebacks and helped widen snooker's champion geography.", "His free-flowing game contrasts strongly with Selby's control style."],
+        "note": "Brecel's 2023 title showed that the sport's champion geography had widened again."
+      }
+    ]
+  },
+  {
+    "id": "china-new-wave",
+    "period": "2020s-now",
+    "title": "China's second wave becomes championship force",
+    "context": "The newest Chinese snooker generation is no longer just inspired by Ding; it is winning the biggest events. Zhao Xintong and Wu Yize make the strongest visual story for a second Chinese wave.",
+    "accent": "#14b8a6",
+    "players": [
+      {
+        "name": "Zhao Xintong",
+        "country": "China",
+        "discipline": "Snooker",
+        "eraRole": "First Chinese World Champion",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhao%20Xintong%202025.jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "6", "icon": "medal" },
+          { "label": "UK titles", "value": "1", "icon": "crown" },
+          { "label": "147s", "value": "1+", "icon": "147" }
+        ],
+        "honors": ["2025 World Champion", "2021 UK Champion", "Six ranking titles by 2026"],
+        "traits": ["Fluid cue action", "rapid scoring", "fearless long potting"],
+        "anecdotes": ["Zhao became the first Chinese and first Asian player to win the World Championship.", "His card should mention the comeback context after his 2023 suspension, because it is part of the modern story."],
+        "note": "Zhao's 2025 title changed the Chinese snooker story from expectation to achievement."
+      },
+      {
+        "name": "Wu Yize",
+        "country": "China",
+        "discipline": "Snooker",
+        "eraRole": "Second consecutive Chinese world champion",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wu%20Yize%20at%20the%20World%20Snooker%20Green%20Carpet%20Ceremony%202026%20(cropped).jpg",
+        "stats": [
+          { "label": "World titles", "value": "1", "icon": "trophy" },
+          { "label": "Ranking titles", "value": "2", "icon": "medal" },
+          { "label": "Title age", "value": "22", "icon": "spark" }
+        ],
+        "honors": ["2026 World Champion", "Two ranking titles", "2018 IBSF U-21 World Champion"],
+        "traits": ["Attacking confidence", "young Crucible nerve", "deciding-frame courage"],
+        "anecdotes": ["Wu won the 2026 world final 18-17 against Shaun Murphy in a deciding frame.", "His win made Chinese world titles repeatable rather than a one-off Zhao moment."],
+        "note": "Wu's 2026 Crucible win made the second-wave story much stronger."
+      },
+      {
+        "name": "Si Jiahui",
+        "country": "China",
+        "discipline": "Snooker",
+        "eraRole": "Young Crucible semi-finalist",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Si%20Jiahui.jpg",
+        "stats": [
+          { "label": "World SF", "value": "2023", "icon": "trophy" },
+          { "label": "Top 16", "value": "Yes", "icon": "rank" },
+          { "label": "Role", "value": "Prospect", "icon": "spark" }
+        ],
+        "honors": ["2023 World Championship semi-finalist", "Top-16 presence after 2025", "Major Chinese prospect"],
+        "traits": ["Fearless shot-making", "fast learning curve", "youthful composure"],
+        "anecdotes": ["Si's 2023 Crucible run made him a symbol of the coming Chinese generation before the world titles arrived.", "His game is a good card for explaining promise, not only completed honours."],
+        "note": "Si is a strong supporting card for the Chinese pipeline."
+      },
+      {
+        "name": "Xiao Guodong",
+        "country": "China",
+        "discipline": "Snooker",
+        "eraRole": "Late-blooming Chinese winner",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiao%20Guodong%202025.jpg",
+        "stats": [
+          { "label": "Ranking titles", "value": "2", "icon": "medal" },
+          { "label": "Wuhan Open", "value": "2024", "icon": "trophy" },
+          { "label": "Top 10", "value": "2026", "icon": "rank" }
+        ],
+        "honors": ["Two ranking titles", "2024 Wuhan Open champion", "Top-10 ranking presence in 2026"],
+        "traits": ["Persistence", "improved scoring confidence", "domestic-event momentum"],
+        "anecdotes": ["Xiao helps show China's rise is broad: not only teenage prodigies, but also mature professionals breaking through.", "His domestic event success connects elite achievement to Chinese host cities."],
+        "note": "Xiao broadens the new-wave story beyond Zhao and Wu."
+      }
+    ]
+  }
+]
